@@ -1,0 +1,239 @@
+@import "http://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+#app
+{
+	font-family: verdana;
+	font-size: 12pt;
+	
+		background: #000;
+
+	background: #f0f0f0;
+}
+.header
+{
+	height:165px;
+	width: 100%;
+	top:0px;
+	position: float;
+	background: #1b0205;
+	background: #161616;
+}
+.banner
+{
+	height:110px;
+	width: 100%;
+	top:0px;
+	position: float;
+	background: #facb09;
+}
+.brand, .brand h2
+{	color:#ffffff;
+	font-family: helvetica;
+	font-weight: bold;	
+}
+.followus
+{	
+	position: float;
+}
+.container
+{	
+	width: 80%;
+
+	align: center;	
+}
+.nav a
+{
+	color:#facb09 !important;
+}
+.nav1 a:active,.nav a:hover
+{
+	color: #ffffff !important;
+}
+table.section td
+{
+	padding-top: 10px;
+	
+	vertical-align: top;
+}
+.section_1
+{
+	width:700px;
+	margin-right: 25px;
+	height: 500px;
+	background:#facb09;	
+}
+.section_2
+{	
+	width:400px;
+	margin-left: 25px;
+	height: 250px;
+	background: #fff;
+}
+
+.footer
+{
+	font-family: tahoma;
+	color: #fff;
+	background: #1b0205;
+}
+.footer h1
+{
+font-size: 20pt !important;
+font-weight: xx-large;	
+}
+.footer h2
+{
+font-size: 16pt  !important;
+font-weight: xx-large;	
+}
+.footer ul li
+{
+	padding-left:10px;
+	 display: inline; 
+}
+
+.highlighter
+{
+	background: #d0d0d0;
+	width:270px;
+	height: 25px;	
+}
+.selectmovies h5
+{
+	font-size: 10pt;
+	font-weight: bold;
+}
+.selectioncontainer
+{
+	width:270px;
+	font-size: 8pt;
+	padding: 10px;
+	background : #fff;
+}
+.selectioncontainer h4
+{
+	color: #868686;
+	font-size: 10pt;
+	font-weight:bold;
+}
+
+.mb20 { margin-bottom: 20px; } 
+
+hgroup { padding-left: 15px; border-bottom: 1px solid #ccc; }
+hgroup h1 { font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin-top: 0; line-height: 1.15; }
+hgroup h2.lead { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin: 0; padding-bottom: 10px; }
+
+.search-result .thumbnail { border-radius: 0 !important; }
+.search-result:first-child { margin-top: 0 !important; }
+.search-result { margin-top: 20px; }
+.search-result .col-md-2 { border-right: 1px dotted #ccc; min-height: 140px; }
+.search-result ul { padding-left: 0 !important; list-style: none;  }
+.search-result ul li { font: 400 normal .85em "Roboto",Arial,Verdana,sans-serif;  line-height: 30px; }
+.search-result ul li i { padding-right: 5px; }
+.search-result .col-md-7 { position: relative; }
+.search-result h3 { font: 500 normal 1.375em "Roboto",Arial,Verdana,sans-serif; margin-top: 0 !important; margin-bottom: 10px !important; }
+.search-result h3 > a, .search-result i { color: #248dc1 !important; }
+.search-result p { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; } 
+.search-result span.plus { position: absolute; right: 0; top: 126px; }
+.search-result span.plus a { background-color: #248dc1; padding: 5px 5px 3px 5px; }
+.search-result span.plus a:hover { background-color: #414141; }
+.search-result span.plus a i { color: #fff !important; }
+.search-result span.border { display: block; width: 97%; margin: 0 15px; border-bottom: 1px dotted #ccc; }
+
+a.link, a.link:active, a.link:hover {
+	text-decoration:none;	
+	color:#facb09;
+	font-weight: bold;
+}
+
+.checked {
+    color: orange;
+}
+.multi-item-carousel {
+  .carousel-inner {
+    > .item {
+      transition: 500ms ease-in-out left;
+    }
+    .active {
+      &.left {
+        left: -33%;
+      }
+      &.right {
+        left: 33%;
+      }
+    }
+    .next {
+      left: 33%;
+    }
+    .prev {
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item {
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none !important;
+      }
+    }
+  }
+  .carouse-control {
+    &.left,
+    &.right {
+      background-image: none;
+    }
+  }
+}
+
+
+// non-related styling:
+body{
+  background: #333;
+  color: #ddd;
+}
+h1{
+  color: white;
+  font-size: 2.25em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+}
+.synopsis p, .synopsis ul
+{
+	display:block;
+	font-family: helvetica;
+}
+.synopsis .details-title
+{
+
+	color: #7f4030;
+	font-weight: bold;
+		padding-top :20px;
+		display: block;
+	font-family: helvetica;
+}
+
+.topmovieshighlighter
+{
+	background: #facb09;
+	background: #222222;
+	width:30%;
+	height: 20px;	
+}
+.topmovies-title
+{
+	font-weight: bold;
+		padding-top :2px;
+			padding-bottom :20px;
+		color: #c73133;
+		display: block;
+	font-family: verdana;
+	
+}
+
+.form
+{
+	font-family: tahoma;
+	font-size: 8pt;
+}
